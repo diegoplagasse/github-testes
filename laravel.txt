@@ -1,0 +1,66 @@
+INSTALAÇÃO 
+
+diretório de instalação do laravel
+
+composer install
+
+-
+composer global require "laravel/installer"
+laravel new blog
+
+-
+ou
+
+composer create-project --prefer-dist laravel/laravel blog
+-
+
+php artisan serve //para iniciar o servidor 
+
+--------------------------------------------
+
+ESTRUTURA
+
+server.php //possibilitar o comando para o artisan para o servidor embutido.
+readme.md // informações sobre o laravel
+phpunity.xml // serve para realizar teste da aplicação
+package.json //arquivo de configuração do NODEJS, provem o gerenciamento de pacotes e plugins(EX: gulp) 
+.env // conexões
+
+Diretórios
+vendor //tods as bibliotecas que o laravel precisa pra rodar, não realiza modificações (composer gerencia)
+tests //Define testes para fazer com PHPUnity
+storage //arquivo de cache, logs, sessões, views compiladas , prover gerenciamento de criação de arquivos
+resources //recursos , assets(css, javascript), tradução, VIEWS
+public //todas as requisições são direcionadas a esta pasta(INDEX.PHP), .HTACCESS
+database //Prove recursos para gerenciar o banco de dados 
+->factories, 
+->migrations(gerenciamento de td que fizer, modela o banco de dados utilizando o PHP), 
+->seeds
+
+config //diretório de configuração da aplicação 
+->app //Informações e configurações da aplicação
+->auth //autenticação Sistema de login
+
+boostrap //inicializa os recursos do framework , ponto incial start
+app //diversos diretórios tudo acontece, 99%
+Http 
+routes.php //
+
+models ficam na raiz do diretório app
+
+M diretório app raiz
+V resources
+C app/Http
+
+--------------------------------------------
+
+
+php artisan make:controller HomeController
+php artisan make:model Cliente
+php artisan make:migration Create_Migration_Cliente
+
+php artisan make:console NovaView --command="make:view" //Comando criado
+
+
+
+

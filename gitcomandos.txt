@@ -1,0 +1,53 @@
+GIT COMANDOS iniciais
+
+git config --global user.name "Nome" 
+
+git config -- global user.email "email" 
+
+seleciona o diretório, git bash com botão direito.
+
+GIT init //cria
+
+git status //da o status atual do repositório
+
+git add nomedoarquivo, .extensão, . //Adiciona a fila para comitar 
+
+git commit -m "mensagem do que foi feito" //faz de fato o envio para o acompanhemento
+
+
+.gitignore //o que for setado ali o git ignora 
+
+git diff //mostra modificações q nao foram add para commits
+
+git log //mostra histórico de commits enviados, histórico de modificações
+//git log -p mostra histórico +diff
+
+git log --pretty=oneline //mostra todos os comits com hashs e conteúdo dos comentarios
+
+git commit --amend -m "novas funcionalidades(editado)" //Edita o último COMMIT
+
+git reset head novo.php //Retira o arquivo da lista do git add feito
+
+git checkout -- novo.php //Volta ao que era após dar git add . 
+
+git rm functions.php //Caso eu tenha apagado o arquivo do diretório preciso ir no e digitar esse comando para retirar do git
+
+git tag -a v1.0 -m "Versão 1.0" //Cria tag de versão
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
