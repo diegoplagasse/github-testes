@@ -35,6 +35,19 @@ git rm functions.php //Caso eu tenha apagado o arquivo do diretório preciso ir n
 git tag -a v1.0 -m "Versão 1.0" //Cria tag de versão
 
 
+GITHUB
+
+git clone urldoprojeto
+
+git add .
+
+git commit -m "descrição do que foi feito" 
+
+git push (faço login no github e pronto) 
+
+git pull //trás as ultimas atualizações feitas
+
+
 
 
 
