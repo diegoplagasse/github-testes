@@ -4,35 +4,35 @@ git config --global user.name "Nome"
 
 git config -- global user.email "email" 
 
-seleciona o diretório, git bash com botão direito.
+seleciona o diretÃ³rio, git bash com botÃ£o direito.
 
 GIT init //cria
 
-git status //da o status atual do repositório
+git status //da o status atual do repositÃ³rio
 
-git add nomedoarquivo, .extensão, . //Adiciona a fila para comitar 
+git add nomedoarquivo, .extensÃ£o, . //Adiciona a fila para comitar 
 
 git commit -m "mensagem do que foi feito" //faz de fato o envio para o acompanhemento
 
 
 .gitignore //o que for setado ali o git ignora 
 
-git diff //mostra modificações q nao foram add para commits
+git diff //mostra modificaÃ§Ãµes q nao foram add para commits
 
-git log //mostra histórico de commits enviados, histórico de modificações
-//git log -p mostra histórico +diff
+git log //mostra histÃ³rico de commits enviados, histÃ³rico de modificaÃ§Ãµes
+//git log -p mostra histÃ³rico +diff
 
-git log --pretty=oneline //mostra todos os comits com hashs e conteúdo dos comentarios
+git log --pretty=oneline //mostra todos os comits com hashs e conteÃºdo dos comentarios
 
-git commit --amend -m "novas funcionalidades(editado)" //Edita o último COMMIT
+git commit --amend -m "novas funcionalidades(editado)" //Edita o Ãºltimo COMMIT
 
 git reset head novo.php //Retira o arquivo da lista do git add feito
 
-git checkout -- novo.php //Volta ao que era após dar git add . 
+git checkout -- novo.php //Volta ao que era apÃ³s dar git add . 
 
-git rm functions.php //Caso eu tenha apagado o arquivo do diretório preciso ir no e digitar esse comando para retirar do git
+git rm functions.php //Caso eu tenha apagado o arquivo do diretÃ³rio preciso ir no e digitar esse comando para retirar do git
 
-git tag -a v1.0 -m "Versão 1.0" //Cria tag de versão
+git tag -a v1.0 -m "VersÃ£o 1.0" //Cria tag de versÃ£o
 
 
 GITHUB
@@ -41,11 +41,14 @@ git clone urldoprojeto
 
 git add .
 
-git commit -m "descrição do que foi feito" 
+git commit -m "descriÃ§Ã£o do que foi feito" 
 
-git push (faço login no github e pronto) 
+git push (faÃ§o login no github e pronto) 
 
-git pull //trás as ultimas atualizações feitas
+git pull //trÃ¡s as ultimas atualizaÃ§Ãµes feitas
+
+git push origin HEAD:develop
+
 
 
 
